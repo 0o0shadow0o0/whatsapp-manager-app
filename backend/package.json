@@ -1,0 +1,39 @@
+{
+  "name": "whatsapp-manager-backend",
+  "version": "1.0.0",
+  "description": "Backend for WhatsApp Management Website",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "socket.io"
+  ],
+  "author": "Manus AI Agent",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0",
+    "pino": "^9.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0",
+    "pino-pretty": "^13.0.0"
+  }
+}
